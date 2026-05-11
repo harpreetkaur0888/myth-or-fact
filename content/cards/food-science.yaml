@@ -1,0 +1,259 @@
+- id: card_0001
+  claim: Eating mangoes in summer makes your body run hot.
+  verdict: MYTH
+  explanation: >-
+    Your body keeps its core temperature near 37°C no matter what you eat
+    — the brain's hypothalamus controls it through sweating and blood
+    flow. The "heating food" idea comes from traditional systems that use
+    heat as a feeling, not a thermometer reading. Some people do get a
+    rash from mangoes, but that's a skin reaction to a compound in the
+    peel, not your body warming up.
+  source:
+    name: Encyclopedia Britannica — Thermoregulation
+    year: 2024
+    url: https://www.britannica.com/science/thermoregulation
+  category: food-science
+  difficulty: easy
+  nuance: medium
+  tags: [india, summer, traditional-medicine, kitchen-myths]
+
+- id: card_0002
+  claim: Microwaves cook food from the inside out.
+  verdict: MYTH
+  explanation: >-
+    Microwaves penetrate only about 1 to 1.5 centimeters into food. Beyond
+    that depth, heat moves inward by conduction, just like in an oven. Cold
+    centers in reheated leftovers happen because the outside heats first and
+    shields the middle, not the other way around.
+  source:
+    name: USDA Food Safety and Inspection Service
+    year: 2020
+    url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/microwave-ovens-and-food-safety
+  category: food-science
+  difficulty: easy
+  tags: [cooking, microwave, physics, kitchen-myths]
+
+- id: card_0003
+  claim: A pinch of salt makes a pot of water boil noticeably faster.
+  verdict: MYTH
+  explanation: >-
+    Salt does change water's boiling point, but in the opposite direction —
+    it raises it slightly. To shave a real second off boiling time you'd need
+    so much salt the pasta would be inedible. We add salt for flavor, not
+    speed.
+  source:
+    name: McGill University Office for Science and Society
+    year: 2018
+    url: https://www.mcgill.ca/oss/article/you-asked/does-adding-salt-water-make-it-boil-faster
+  category: food-science
+  difficulty: easy
+  nuance: low
+  tags: [cooking, physics, kitchen-myths, boiling]
+
+- id: card_0004
+  claim: Honey can stay edible for thousands of years.
+  verdict: FACT
+  explanation: >-
+    Archaeologists have found honey in Egyptian tombs that was still safe to
+    taste. Honey's low water content, acidic pH, and natural hydrogen
+    peroxide make it a hostile place for microbes. Sealed and kept dry, it
+    essentially does not spoil — though it can crystallize.
+  source:
+    name: Smithsonian Magazine
+    year: 2013
+    url: https://www.smithsonianmag.com/science-nature/the-science-behind-honeys-eternal-shelf-life-1218690
+  category: food-science
+  difficulty: easy
+  tags: [honey, preservation, chemistry, surprising]
+
+- id: card_0005
+  claim: Bananas are botanically berries.
+  verdict: FACT
+  explanation: >-
+    To a botanist, a berry is a fruit that grows from a single flower with
+    one ovary and contains seeds inside its flesh. Bananas qualify;
+    strawberries and raspberries do not. The everyday meaning of "berry" and
+    the scientific one simply don't match up.
+  source:
+    name: Encyclopedia Britannica
+    year: 2023
+    url: https://www.britannica.com/story/why-bananas-are-berries-but-strawberries-arent
+  category: food-science
+  difficulty: easy
+  nuance: low
+  tags: [botany, fruit, classification, surprising]
+
+- id: card_0006
+  claim: Eating curd at night gives you a cold.
+  verdict: MYTH
+  explanation: >-
+    Colds are caused by viruses, not by dinner. Studies on healthy adults
+    have failed to find that dairy increases mucus or congestion. Curd is
+    fermented, and the live bacteria in it are actually linked in
+    research to better gut and immune health. The cold air at night gets
+    blamed on the curd by accident.
+  source:
+    name: McGill University Office for Science and Society
+    year: 2020
+    url: https://www.mcgill.ca/oss/article/health-and-nutrition-you-asked/no-need-avoid-dairy-when-youre-sick
+  category: food-science
+  difficulty: easy
+  tags: [india, dairy, dinner-myths, immune]
+
+- id: card_0007
+  claim: Spicy food is a major cause of stomach ulcers.
+  verdict: MYTH
+  explanation: >-
+    Most ulcers are caused by a bacterium called H. pylori or by long-term
+    use of painkillers like ibuprofen. The 2005 Nobel Prize in Medicine went
+    to the researchers who proved it. Spicy meals can irritate an existing
+    ulcer, but they don't create one.
+  source:
+    name: Nobel Prize in Physiology or Medicine (Marshall and Warren)
+    year: 2005
+    url: https://www.nobelprize.org/prizes/medicine/2005/summary/
+  category: food-science
+  difficulty: medium
+  nuance: medium
+  tags: [health, spicy-food, digestion, h-pylori]
+
+- id: card_0008
+  claim: Drinking coffee leaves you more dehydrated than not drinking it.
+  verdict: MYTH
+  explanation: >-
+    Caffeine is a mild diuretic, but the water in a regular cup of coffee
+    more than makes up for the extra trips to the bathroom. A controlled
+    trial in 2014 found moderate coffee drinkers hydrated about as well on
+    coffee as on plain water.
+  source:
+    name: PLOS ONE (Killer et al.)
+    year: 2014
+    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0084154
+  category: food-science
+  difficulty: medium
+  tags: [coffee, hydration, caffeine, health]
+
+- id: card_0009
+  claim: Sugar makes children hyperactive.
+  verdict: MYTH
+  explanation: >-
+    More than a dozen double-blind trials, plus a major review in the medical
+    journal JAMA, found no link between sugar and children's behavior. The
+    effect seems to live
+    in parents' expectations: in one study, parents rated kids as
+    hyperactive when told they'd had sugar, even when they hadn't.
+  source:
+    name: JAMA (Wolraich et al.)
+    year: 1995
+    url: https://jamanetwork.com/journals/jama/article-abstract/391812
+  category: food-science
+  difficulty: medium
+  tags: [sugar, children, behavior, nutrition]
+
+- id: card_0010
+  claim: Cooked tomatoes give you more usable lycopene than raw ones.
+  verdict: FACT
+  explanation: >-
+    Heat breaks down tomato cell walls and rearranges lycopene — the red
+    pigment that gives tomatoes their colour — into a form your body absorbs
+    more easily. Studies have found two to three times
+    more lycopene in the blood after eating cooked tomato products versus
+    raw. A little fat — olive oil works — boosts uptake even further.
+  source:
+    name: American Journal of Clinical Nutrition (Gärtner et al.)
+    year: 1997
+  category: food-science
+  difficulty: medium
+  nuance: low
+  tags: [tomatoes, nutrition, cooking, antioxidants]
+
+- id: card_0011
+  claim: Some people are genetically wired to taste cilantro as soapy.
+  verdict: FACT
+  explanation: >-
+    A variant of the smell-receptor gene OR6A2 makes certain compounds in
+    cilantro register as the same chemicals found in soap. Studies of
+    twins and large genetic databases have repeatedly linked this gene to
+    cilantro hatred. It's not pickiness — it's biology.
+  source:
+    name: Flavour Journal (Eriksson et al.)
+    year: 2012
+    url: https://flavourjournal.biomedcentral.com/articles/10.1186/2044-7248-1-22
+  category: food-science
+  difficulty: medium
+  nuance: low
+  tags: [genetics, taste, cilantro, biology]
+
+- id: card_0012
+  claim: Maggi noodles have plastic in them.
+  verdict: MYTH
+  explanation: >-
+    Viral videos of Maggi catching fire are sometimes shared as "proof" of
+    plastic. Wheat and oil — what noodles are actually made of — burn the
+    same way. India's food regulator FSSAI has never found plastic in
+    Maggi. The big 2015 controversy was a different issue: lead and MSG
+    labelling. Independent retests cleared Maggi, and the Bombay High
+    Court lifted the ban.
+  source:
+    name: Maggi noodles safety concerns in India (Wikipedia)
+    year: 2024
+    url: https://en.wikipedia.org/wiki/Maggi_noodles_safety_concerns_in_India
+  category: food-science
+  difficulty: medium
+  nuance: medium
+  tags: [india, food-safety, fssai, kitchen-myths, social-media]
+
+- id: card_0013
+  claim: Tulsi has health effects that scientists can actually measure.
+  verdict: FACT
+  explanation: >-
+    Tulsi has been tested in real human trials — not just tradition. A
+    2017 review pulling together those studies found measurable drops in
+    the stress hormone cortisol, better blood sugar control, and shifts in
+    immune cells. The effects are modest, not magic. But this is one
+    case where the lab data and the home-remedy advice point the same way.
+  source:
+    name: Evidence-Based Complementary and Alternative Medicine (Jamshidi and Cohen)
+    year: 2017
+    url: https://www.hindawi.com/journals/ecam/2017/9217567/
+  category: food-science
+  difficulty: hard
+  nuance: medium
+  tags: [india, ayurveda, herbs, health, tulsi]
+
+- id: card_0014
+  claim: Turmeric really does fight inflammation in the body.
+  verdict: FACT
+  explanation: >-
+    Turmeric's main compound, curcumin, has been shown in human trials to
+    lower inflammation markers in the blood. The tricky bit: on its own, your
+    gut absorbs almost none of it. Black pepper or a little fat — exactly
+    how Indian cooking already uses it — boosts absorption many times
+    over. Generations of kitchens figured out the pharmacology by feel.
+  source:
+    name: Foods (Hewlings and Kalman)
+    year: 2017
+    url: https://www.mdpi.com/2304-8158/6/10/92
+  category: food-science
+  difficulty: hard
+  nuance: medium
+  tags: [india, ayurveda, spices, inflammation, biochemistry]
+
+- id: card_0015
+  claim: Pineapple stings your mouth because an enzyme is digesting you back.
+  verdict: FACT
+  explanation: >-
+    Fresh pineapple contains bromelain, a protein-cutting enzyme. As you
+    chew, it weakens the protective mucus layer in your mouth — and then
+    the fruit's natural acid does the actual stinging. A two-step
+    chemistry attack. Your tissue repairs itself within hours. Canned
+    pineapple is heat-treated, which kills the bromelain — so it doesn't
+    bite back.
+  source:
+    name: McGill University Office for Science and Society
+    year: 2021
+    url: https://www.mcgill.ca/oss/article/student-contributors-health-and-nutrition-did-you-know-general-science/why-does-pineapple-make-your-mouth-tickle
+  category: food-science
+  difficulty: hard
+  nuance: low
+  tags: [enzymes, pineapple, biochemistry, surprising]
