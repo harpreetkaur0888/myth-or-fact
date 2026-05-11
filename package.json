@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "validate:cards": "tsx scripts/validate-cards.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.0",
@@ -25,6 +26,7 @@
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
     "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
     "autoprefixer": "^10.5.0",
     "eslint": "^10.2.1",
     "eslint-plugin-react-hooks": "^7.1.1",
@@ -32,6 +34,7 @@
     "globals": "^17.5.0",
     "postcss": "^8.5.14",
     "tailwindcss": "^4.3.0",
+    "tsx": "^4.21.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.2",
     "vite": "^8.0.10",

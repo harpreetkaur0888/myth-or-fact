@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "claim", "verdict", "explanation", "source", "category", "difficulty", "tags"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^card_[0-9]{4}$" },
+      "claim": { "type": "string", "maxLength": 120 },
+      "verdict": { "enum": ["MYTH", "FACT"] },
+      "explanation": { "type": "string", "minLength": 50, "maxLength": 400 },
+      "source": {
+        "type": "object",
+        "required": ["name", "year"],
+        "properties": {
+          "name": { "type": "string" },
+          "year": { "type": "integer", "minimum": 1900 },
+          "url": { "type": "string", "format": "uri" }
+        }
+      },
+      "category": { "type": "string" },
+      "difficulty": { "enum": ["easy", "medium", "hard"] },
+      "nuance": { "enum": ["low", "medium", "high"] },
+      "tags": {
+        "type": "array",
+        "items": { "type": "string" },
+        "minItems": 3,
+        "maxItems": 5
+      }
+    }
+  }
+}
