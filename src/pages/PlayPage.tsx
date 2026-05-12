@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { ScoreHeader } from '../components/ScoreHeader';
 import { CardStack } from '../components/CardStack';
@@ -52,6 +52,8 @@ export function PlayPage() {
   const [reveal, setReveal] = useState<RevealState | null>(null);
   const [flash, setFlash] = useState<{ correct: boolean } | null>(null);
   const [done, setDone] = useState(false);
+  const [shareToast, setShareToast] = useState(false);
+  const [shareError, setShareError] = useState<string | null>(null);
 
   const correctAnswers = useSessionStore((s) => s.correctAnswers);
   const currentStreak = useSessionStore((s) => s.currentStreak);
@@ -93,7 +95,21 @@ export function PlayPage() {
     setIndex(0);
     setReveal(null);
     setDone(false);
+    setShareToast(false);
+    setShareError(null);
     setRestartKey((k) => k + 1);
+  }
+
+  async function handleShare() {
+    const text = `I got ${correctAnswers} out of 15 on Myth or Fact 🧐 think you can beat me? https://myth-or-fact.vercel.app`;
+    try {
+      await navigator.clipboard.writeText(text);
+      setShareError(null);
+      setShareToast(true);
+      setTimeout(() => setShareToast(false), 2000);
+    } catch {
+      setShareError(text);
+    }
   }
 
   if (done) {
@@ -116,6 +132,34 @@ export function PlayPage() {
             >
               Play again
             </button>
+            <div className="relative">
+              <AnimatePresence>
+                {shareToast && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 4 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 4 }}
+                    transition={{ duration: 0.2 }}
+                    className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 rounded-md bg-cream text-coral-500 text-sm font-medium shadow-md whitespace-nowrap pointer-events-none"
+                  >
+                    Copied!
+                  </motion.div>
+                )}
+              </AnimatePresence>
+              <button
+                type="button"
+                onClick={handleShare}
+                className="w-full rounded-full bg-white border-2 border-coral-500 text-coral-500 py-3 font-semibold hover:bg-coral-400/15 active:scale-95 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-coral-500 focus-visible:ring-offset-2"
+              >
+                Share my score
+              </button>
+            </div>
+            {shareError && (
+              <p className="text-xs text-slate-600 select-text text-left px-2">
+                Couldn't copy — long-press to copy:{' '}
+                <span className="text-slate-800 break-all">{shareError}</span>
+              </p>
+            )}
             <button
               type="button"
               onClick={() => navigate('/')}

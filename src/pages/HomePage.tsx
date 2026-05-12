@@ -20,8 +20,9 @@ export function HomePage() {
           Start playing
         </Link>
         {bestStreak > 0 && (
-          <p className="mt-2 text-sm text-slate-500">
-            Best streak: {bestStreak}
+          <p className="mt-2 text-sm text-slate-500 flex items-center gap-1">
+            <span className="drop-shadow-[0_0_6px_rgba(231,111,81,0.55)]">🔥</span>
+            <span>Your best streak: {bestStreak}</span>
           </p>
         )}
       </div>
