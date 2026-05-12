@@ -47,7 +47,7 @@ export function SwipeCard({ card, onSwipe, onExited }: Props) {
 
   return (
     <motion.div
-      className="absolute inset-0 rounded-3xl bg-white shadow-xl flex items-center justify-center px-7 py-10 cursor-grab active:cursor-grabbing select-none touch-none"
+      className="absolute inset-0 rounded-2xl bg-white border border-cream-line shadow-[0_8px_24px_-4px_rgba(231,111,81,0.15)] flex items-center justify-center px-7 py-10 cursor-grab active:cursor-grabbing select-none touch-none"
       drag="x"
       dragConstraints={{ left: 0, right: 0 }}
       dragElastic={0.8}
@@ -66,7 +66,7 @@ export function SwipeCard({ card, onSwipe, onExited }: Props) {
       >
         FACT
       </motion.div>
-      <p className="text-center text-2xl font-semibold leading-snug text-slate-900">
+      <p className="text-center text-[32px] font-semibold leading-snug text-slate-900 font-display">
         {card.claim}
       </p>
     </motion.div>

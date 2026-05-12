@@ -27,7 +27,7 @@ export function RevealPanel({
       initial={{ y: 80, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ type: 'spring', stiffness: 300, damping: 25 }}
-      className="w-full max-w-[380px] mx-auto bg-white rounded-3xl shadow-xl p-6 flex flex-col gap-4"
+      className="w-full max-w-[380px] mx-auto bg-white rounded-2xl border border-cream-line shadow-[0_8px_24px_-4px_rgba(231,111,81,0.15)] p-6 flex flex-col gap-4"
     >
       {streakBanner && (
         <div className="text-xs font-bold uppercase tracking-wider text-orange-500">
@@ -43,7 +43,7 @@ export function RevealPanel({
           stiffness: 400,
           damping: 12,
         }}
-        className={`text-4xl font-extrabold ${verdictColor} self-start origin-center`}
+        className={`text-5xl font-bold ${verdictColor} self-start origin-center font-display`}
       >
         {card.verdict}
       </motion.div>
@@ -57,7 +57,7 @@ export function RevealPanel({
       <button
         type="button"
         onClick={onNext}
-        className="mt-2 self-end rounded-full bg-slate-900 text-white px-6 py-2 text-sm font-semibold hover:bg-slate-700 active:scale-95 transition"
+        className="mt-2 self-end rounded-full bg-coral-500 text-white px-6 py-2 text-sm font-semibold hover:bg-coral-600 active:scale-95 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-coral-500 focus-visible:ring-offset-2"
       >
         Next →
       </button>

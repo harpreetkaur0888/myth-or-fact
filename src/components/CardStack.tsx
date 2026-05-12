@@ -50,7 +50,7 @@ export function CardStack({
                 onExited={onAdvance}
               />
             ) : (
-              <div className="absolute inset-0 rounded-3xl bg-white shadow-xl pointer-events-none" />
+              <div className="absolute inset-0 rounded-2xl bg-white border border-cream-line shadow-[0_8px_24px_-4px_rgba(231,111,81,0.15)] pointer-events-none" />
             )}
           </div>
         );

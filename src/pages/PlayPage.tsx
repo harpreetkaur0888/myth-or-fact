@@ -98,9 +98,9 @@ export function PlayPage() {
 
   if (done) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center px-4 bg-slate-50">
-        <div className="w-full max-w-[380px] bg-white rounded-3xl shadow-xl p-8 text-center flex flex-col gap-6">
-          <h2 className="text-2xl font-extrabold text-slate-900">
+      <div className="min-h-screen flex flex-col items-center justify-center px-4 bg-cream">
+        <div className="w-full max-w-[380px] bg-white rounded-2xl border border-cream-line shadow-[0_8px_24px_-4px_rgba(231,111,81,0.15)] p-8 text-center flex flex-col gap-6">
+          <h2 className="text-4xl font-semibold text-slate-900 font-display">
             Deck complete
           </h2>
           <p className="text-slate-600">
@@ -112,14 +112,14 @@ export function PlayPage() {
             <button
               type="button"
               onClick={restart}
-              className="rounded-full bg-slate-900 text-white py-3 font-semibold hover:bg-slate-700 active:scale-95 transition"
+              className="rounded-full bg-coral-500 text-white py-3 font-semibold hover:bg-coral-600 active:scale-95 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-coral-500 focus-visible:ring-offset-2"
             >
               Play again
             </button>
             <button
               type="button"
               onClick={() => navigate('/')}
-              className="rounded-full bg-slate-100 text-slate-700 py-3 font-semibold hover:bg-slate-200 active:scale-95 transition"
+              className="rounded-full bg-slate-100 text-slate-700 py-3 font-semibold hover:bg-coral-500 hover:text-white active:scale-95 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-coral-500 focus-visible:ring-offset-2"
             >
               Home
             </button>
@@ -130,7 +130,7 @@ export function PlayPage() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col">
+    <div className="min-h-screen bg-cream flex flex-col">
       <ScoreHeader
         correct={correctAnswers}
         total={deck.length}
@@ -160,7 +160,7 @@ export function PlayPage() {
           </div>
         )}
         {reveal && (
-          <div className="absolute inset-0 z-50 bg-slate-50/95 flex items-center justify-center p-4 overflow-y-auto">
+          <div className="absolute inset-0 z-50 bg-cream/95 flex items-center justify-center p-4 overflow-y-auto">
             <RevealPanel
               card={reveal.card}
               userAnswer={reveal.userAnswer}

@@ -34,7 +34,7 @@ export function ScoreHeader({ correct, total, streak }: Props) {
               initial={{ scale: 0, rotate: -45 }}
               animate={{ scale: 1, rotate: 0 }}
               transition={{ type: 'spring', stiffness: 400, damping: 15 }}
-              className="inline-block"
+              className="inline-block drop-shadow-[0_0_6px_rgba(231,111,81,0.55)]"
             >
               🔥
             </motion.span>
