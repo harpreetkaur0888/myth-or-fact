@@ -21,6 +21,8 @@
       "category": { "type": "string" },
       "difficulty": { "enum": ["easy", "medium", "hard"] },
       "nuance": { "enum": ["low", "medium", "high"] },
+      "reaction_correct": { "type": "string", "maxLength": 80 },
+      "reaction_wrong": { "type": "string", "maxLength": 80 },
       "tags": {
         "type": "array",
         "items": { "type": "string" },

@@ -15,6 +15,8 @@
   category: food-science
   difficulty: easy
   nuance: medium
+  reaction_correct: "You skipped the most Indian summer myth — nice."
+  reaction_wrong: "Half of Indian families would swipe wrong on this one."
   tags: [india, summer, traditional-medicine, kitchen-myths]
 
 - id: card_0002
@@ -31,6 +33,8 @@
     url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/microwave-ovens-and-food-safety
   category: food-science
   difficulty: easy
+  reaction_correct: "Most people assume the cold middle proves it. You looked past that."
+  reaction_wrong: "Easy miss — cold centers in leftovers really do feel like proof."
   tags: [cooking, microwave, physics, kitchen-myths]
 
 - id: card_0003
@@ -48,6 +52,8 @@
   category: food-science
   difficulty: easy
   nuance: low
+  reaction_correct: "More chemistry than most cookbooks teach."
+  reaction_wrong: "Tons of cooking shows say this. The chemistry actually goes the other way."
   tags: [cooking, physics, kitchen-myths, boiling]
 
 - id: card_0004
@@ -64,6 +70,8 @@
     url: https://www.smithsonianmag.com/science-nature/the-science-behind-honeys-eternal-shelf-life-1218690
   category: food-science
   difficulty: easy
+  reaction_correct: "Egyptian tombs proved it before chemistry did."
+  reaction_wrong: "Food outlasting a civilization throws people. Honey is the rare exception."
   tags: [honey, preservation, chemistry, surprising]
 
 - id: card_0005
@@ -81,6 +89,8 @@
   category: food-science
   difficulty: easy
   nuance: low
+  reaction_correct: "You went past the everyday meaning to the botany. Nice."
+  reaction_wrong: "The word 'berry' is used differently in everyday talk and in botany."
   tags: [botany, fruit, classification, surprising]
 
 - id: card_0006
@@ -98,6 +108,8 @@
     url: https://www.mcgill.ca/oss/article/health-and-nutrition-you-asked/no-need-avoid-dairy-when-youre-sick
   category: food-science
   difficulty: easy
+  reaction_correct: "You trusted the data over the grandparent rule on this one."
+  reaction_wrong: "Every Indian grandparent has said it. Easy one to inherit."
   tags: [india, dairy, dinner-myths, immune]
 
 - id: card_0007
@@ -115,6 +127,8 @@
   category: food-science
   difficulty: medium
   nuance: medium
+  reaction_correct: "The 2005 Nobel flipped this — you tracked the update."
+  reaction_wrong: "Doctors had it wrong for a century. You're in good company."
   tags: [health, spicy-food, digestion, h-pylori]
 
 - id: card_0008
@@ -131,6 +145,8 @@
     url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0084154
   category: food-science
   difficulty: medium
+  reaction_correct: "Diuretic isn't the same as dehydrating — nice catch."
+  reaction_wrong: "The diuretic part is real; the dehydrating part isn't. Sneaky one."
   tags: [coffee, hydration, caffeine, health]
 
 - id: card_0009
@@ -148,6 +164,8 @@
     url: https://jamanetwork.com/journals/jama/article-abstract/391812
   category: food-science
   difficulty: medium
+  reaction_correct: "Trials beat birthday-party intuition."
+  reaction_wrong: "Every birthday party seems to prove this. It's a strong illusion."
   tags: [sugar, children, behavior, nutrition]
 
 - id: card_0010
@@ -165,6 +183,8 @@
   category: food-science
   difficulty: medium
   nuance: low
+  reaction_correct: "Heat actually unlocks the lycopene — surprising one."
+  reaction_wrong: "We're taught raw equals better. Tomatoes are a genuine exception."
   tags: [tomatoes, nutrition, cooking, antioxidants]
 
 - id: card_0011
@@ -182,6 +202,8 @@
   category: food-science
   difficulty: medium
   nuance: low
+  reaction_correct: "Taste with a genetic fingerprint. Nice."
+  reaction_wrong: "Half the population swipes the other way."
   tags: [genetics, taste, cilantro, biology]
 
 - id: card_0012
@@ -201,6 +223,8 @@
   category: food-science
   difficulty: medium
   nuance: medium
+  reaction_correct: "You didn't fall for the WhatsApp version. Sharp."
+  reaction_wrong: "WhatsApp has spread this one for years. You're not alone."
   tags: [india, food-safety, fssai, kitchen-myths, social-media]
 
 - id: card_0013
@@ -219,6 +243,8 @@
   category: food-science
   difficulty: hard
   nuance: medium
+  reaction_correct: "Tradition and the lab agreed here. Good catch."
+  reaction_wrong: "Tempting to file under 'just tradition.' Studies say otherwise."
   tags: [india, ayurveda, herbs, health, tulsi]
 
 - id: card_0014
@@ -237,6 +263,8 @@
   category: food-science
   difficulty: hard
   nuance: medium
+  reaction_correct: "And your kitchen already does the absorption trick with pepper."
+  reaction_wrong: "Small daily doses make this one feel like a stretch. It's real."
   tags: [india, ayurveda, spices, inflammation, biochemistry]
 
 - id: card_0015
@@ -256,4 +284,6 @@
   category: food-science
   difficulty: hard
   nuance: low
+  reaction_correct: "Bromelain meets acid — a two-step attack on your mouth lining."
+  reaction_wrong: "Feels like a regular sting. Two layers of chemistry trip people."
   tags: [enzymes, pineapple, biochemistry, surprising]
