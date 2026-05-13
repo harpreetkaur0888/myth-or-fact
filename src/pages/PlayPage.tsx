@@ -140,7 +140,7 @@ export function PlayPage() {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 4 }}
                     transition={{ duration: 0.2 }}
-                    className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1 rounded-md bg-cream text-coral-500 text-sm font-medium shadow-md whitespace-nowrap pointer-events-none"
+                    className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 z-50 px-3 py-1 rounded-md bg-cream text-coral-500 text-sm font-semibold border border-coral-200 shadow-lg whitespace-nowrap pointer-events-none"
                   >
                     Copied!
                   </motion.div>
