@@ -287,3 +287,23 @@
   reaction_correct: "Bromelain meets acid — a two-step attack on your mouth lining."
   reaction_wrong: "Feels like a regular sting. Two layers of chemistry trip people."
   tags: [enzymes, pineapple, biochemistry, surprising]
+
+- id: card_0016
+  claim: Eating turkey makes you sleepy because of tryptophan.
+  verdict: MYTH
+  explanation: >-
+    Turkey has tryptophan, but no more than chicken, fish, or cheese. One
+    serving isn't enough to make you sleepy on its own — and the amino
+    acid has to compete with five others to reach the brain. The real
+    cause of the post-Thanksgiving snooze is the carbs, the second
+    helping, and your gut pulling blood away from your head.
+  source:
+    name: Mayo Clinic
+    year: 2023
+    url: https://newsnetwork.mayoclinic.org/discussion/11-23-mayo-clinic-minute-dont-blame-the-turkey-for-being-tired/
+  category: food-science
+  difficulty: medium
+  nuance: medium
+  reaction_correct: "Tryptophan gets blamed; dessert is the real culprit."
+  reaction_wrong: "Repeated every Thanksgiving. You're in big company."
+  tags: [thanksgiving, sleep, tryptophan, food-myths]

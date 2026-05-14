@@ -101,7 +101,7 @@ export function PlayPage() {
   }
 
   async function handleShare() {
-    const text = `I got ${correctAnswers} out of 15 on Myth or Fact 🧐 think you can beat me? https://myth-or-fact.vercel.app`;
+    const text = `I got ${correctAnswers} out of ${deck.length} on Myth or Fact 🧐 think you can beat me? https://myth-or-fact.vercel.app`;
     try {
       await navigator.clipboard.writeText(text);
       setShareError(null);
